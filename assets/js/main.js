@@ -3,7 +3,6 @@ var routeLength = parseInt(prompt("Inserisci la lunghezza in chilometri del tuo 
 if (isNaN(routeLength)) {
     alert("La durata del tuo itinerario deve essere espressa con una cifra. Riprova!");
 }
-console.log(routeLength);
 document.getElementById("length").innerHTML = routeLength + " chilometri.";
 
 //l'età del passeggero.
@@ -11,7 +10,6 @@ var passengerAge = parseInt(prompt("Quanti anni ha il passeggero del viaggio?"))
 if (isNaN(passengerAge)) {
     alert("L'età del passeggero deve essere espressa con una cifra. Riprova!")
 }
-console.log(passengerAge);
 document.getElementById("age").innerHTML = passengerAge + " anni.";
 
 //Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio
