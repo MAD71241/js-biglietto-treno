@@ -17,7 +17,7 @@ console.log(passengerAge);
 il prezzo del biglietto è definito in base ai km (0.21 € al km)*/
 var message = "Il prezzo del tuo biglietto è di: "
 var discountedMessage = "Hai diritto ad uno sconto! Il prezzo del tuo biglietto è di: "
-var totalPrice = (routeLength * 0, 21);
+var totalPrice = routeLength * 0.21;
 
 //va applicato uno sconto del 20% per i minorenni
 if (passengerAge < 18) {
